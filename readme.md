@@ -15,17 +15,17 @@ Easily set up a GPU mining server for XENBLOCKS mining. A single line of code in
      
    For single GPU use vast.sh:
       ```
-   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/JozefJarosciak/xgpu/main/vast.sh && sudo chmod +x vast.sh && sudo ./vast.sh
+   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/wenjiping/xgpu/main/vast.sh && sudo chmod +x vast.sh && sudo ./vast.sh
       ```
 
    For 4 X GPU use vast4.sh:
       ```
-   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/JozefJarosciak/xgpu/main/vast4.sh && sudo chmod +x vast4.sh && sudo ./vast4.sh
+   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/wenjiping/xgpu/main/vast4.sh && sudo chmod +x vast4.sh && sudo ./vast4.sh
       ```      
 
    For 8 X GPU use vast8.sh:
       ```
-   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/JozefJarosciak/xgpu/main/vast8.sh && sudo chmod +x vast8.sh && sudo ./vast8.sh
+   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/wenjiping/xgpu/main/vast8.sh && sudo chmod +x vast8.sh && sudo ./vast8.sh
       ```
 
 1.1 **VAST.AI Video DEMO**:
@@ -37,7 +37,7 @@ Easily set up a GPU mining server for XENBLOCKS mining. A single line of code in
 1. **RUNPOD Mining - runpod.io (unverified)**:
   - Same as above, just update `runpod.sh` file with your address
    ```
-   apt update && apt -y install wget && wget https://raw.githubusercontent.com/JozefJarosciak/xgpu/main/runpod.sh && chmod +x runpod.sh && ./runpod.sh
+   apt update && apt -y install wget && wget https://raw.githubusercontent.com/wenjiping/xgpu/main/runpod.sh && chmod +x runpod.sh && ./runpod.sh
    ```
 
 

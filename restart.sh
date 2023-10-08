@@ -8,8 +8,9 @@ count=`nvidia-smi | grep NVIDIA | grep -v NVIDIA-SMI -c`
 
 echo "GPU count:$count"
 
-for ((i=1; i<=$count; i++))
+for ((i=0; i< $count; i++))
 do
     cmd="sudo nohup ./xengpuminer -d$i > xengpuminer-$i.log 2>&1 &"
+    echo cmd
     ${cmd}
 done
